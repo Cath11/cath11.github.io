@@ -310,6 +310,16 @@ img#dataimpact2{
     border-radius: 5%;
 }
 
+img#punchcharts{
+
+    height: 90%;
+    width: 100%;
+    align-content: end;
+    padding: 0px;
+    margin-right: 0;
+    object-fit: scale-down;
+    border-radius: 5%;
+}
 
 
 

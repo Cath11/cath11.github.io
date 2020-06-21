@@ -312,12 +312,12 @@ img#dataimpact2{
 
 img#punchcharts{
 
-    height: 90%;
+    height: 70%;
     width: 100%;
-    align-content: end;
+    align-content: left;
     padding: 0px;
     margin-right: 0;
-    object-fit: scale-down;
+    object-fit: fill;
     border-radius: 5%;
 }
 

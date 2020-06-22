@@ -400,13 +400,16 @@ img#punchcharts{
 }
     .flex-box-item-1 {
     height: 150px;
-    padding-top: 0px;
+    padding: 0px;
+    margin:0;
     
      
 }
 
     .flex-box-item-2 {
-    height: 60px;    
+    height: 100px;  
+    padding:0;
+    margin:0;  
 }
 
     img#profilepic {
@@ -419,23 +422,65 @@ img#punchcharts{
     .flexbox-container2 {
     display:flex;
     flex-direction: row;   
-    height: 250px; 
+    height: 150px; 
     font-size: 60%;
     margin: 0%;     
 }
-    
+ 
+.flex-box-item-3 {
+    height: 150px;
+    width:100%;    
+}   
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-top: 5px dotted mediumslateblue;
+
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    bottom:100%;
+    left:50%;
+    margin-left:-50px;
+    background-color:#667292;
+    color: black;
+    text-align:center;
+    padding: 5px 0;
+    border-radius: 6px;    
+
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
 
 .flexbox-container3 {
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    height:200px; 
+    height:400px; 
     width:auto; 
     font-size: 60%;
           
 }
+.flex-box-item-5 {
+  
+    align-self: flex-start; 
+    width:20%;    
+    
+}
 
+.flex-box-item-6 {
+    align-self: flex-start; 
+    width:50%;              
+}
+
+.flex-box-item-7 {
+    align-self: flex-start; 
+    width:30%;        
+    
+}
     .flexbox-container4 {
     display:flex;
     flex-direction: column;
@@ -516,7 +561,7 @@ img#punchcharts{
     
 }
     footer#footer {
-    padding-top: 0;
+    padding-top: 50px;
     text-align:center;
     align-items: flex-end;
     font-size: 50%;
@@ -548,7 +593,7 @@ img#punchcharts{
 
 }
 
-/* @media (min-width: 501px) and (max-width:767px) {
+/* @media (min-width: 501px) and (max-width:1199px) {
 
     
     
@@ -557,18 +602,4 @@ img#punchcharts{
 
 
 
-@media (min-width: 768px) and (max-width:1020px) {
-    
-    font-size:20px;
-}
 
-@media (min-width: 1021px) and (max-width:1199px) {
-    
-    font-size:25px;
-}
-
-
-@media (min-width: 1200px) {
-    
-    font-size:30px;
-    } */

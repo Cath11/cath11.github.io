@@ -630,8 +630,9 @@ text-align: center;
 nav {
 margin: -5px;
 padding: -5px;
-border-top: 10px solid mediumslateblue;
-border-bottom: 10px solid mediumslateblue;
+border-top: 1px solid mediumslateblue;
+border-bottom: 1px solid mediumslateblue;
+border-width: 100%;
 width:20px;
 height:100px;
 vertical-align: middle;

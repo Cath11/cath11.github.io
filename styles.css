@@ -654,7 +654,7 @@ margin:0;
 }
 
 .flex-box-item-2 {
-height: 100px;  
+height: 150px;  
 padding:0;
 margin:0;  
 }
@@ -809,7 +809,7 @@ align-self: center;
 
 }
 footer#footer {
-padding-top: 50px;
+padding-top: 150px;
 text-align:center;
 align-items: flex-end;
 font-size: 50%;
